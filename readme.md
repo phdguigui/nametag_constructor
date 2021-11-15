@@ -1,10 +1,8 @@
 # Name Tag Constructor
 
-![Name tag example](https://cdn.discordapp.com/attachments/903507004289601546/903513975373856808/unknown.png)
+This project was developed during the NLW Heat event, hosted by Rocketseat, so here are my greetings for this event.
 
 ## Concept
-
-This project was developed during the NLW Heat event, hosted by Rocketseat, so here are my greetings for this event.
 
 This code is a name tag constructor, where you can input your github username and link your social medias as well.
 
@@ -13,6 +11,8 @@ There are many comments along all the codes, since HTML till JavaScript, that's 
 Across the months my expect is to bring new updates, increasing more functions and possibilities at the name tag construction. Also, we're probably going to have a lot of patches along the project duration.
 
 To each update developed and released, my objective is to build an even more complex and complete (code) name tag constructor, but mainly acquire my basis in JS coding and portfolio construction.
+
+![Name tag example](https://cdn.discordapp.com/attachments/903507004289601546/903513975373856808/unknown.png)
 
 ## Release Version
 
@@ -38,7 +38,7 @@ In standard, the creator's usernames are entered inside the quotation marks, but
 
 In the cases of YouTube or Facebook, where you don't have an exact username to enter, you have to get this information in the URL of your profile of each one of these sites.
 
-## Thanks!!
+## Thank you!
 
 For now that's it! Follow me on Github and on my social medias to be uptaded of every update release and to be informed about my new projects (and good memes as well).
 
