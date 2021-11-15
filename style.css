@@ -1,0 +1,85 @@
+* { 
+    margin:0; /* Assign all the terms with margin equals 0 */
+}
+
+html,
+
+body {
+    --black: hsl(240, 6%, 13%); /* Defines a var with a color that could be used later */
+    --grey: hsl(240, 9%, 89%); 
+    height: 100%;
+    background-color: var(--black);
+    display: grid;
+    place-items: center;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container h1 { /* Calls container div and enter in h1 tag */
+    font-size: 20px;
+}
+
+#userBio { /* Bio text */
+    font-size: 15px;
+    margin-top: 2rem;
+}
+
+main { /* Doc and size of background image */
+    background: url(images/bluebackground.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+}
+
+.container { /* All the content, position */
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center;
+
+    color: var(--grey);
+}
+
+.avatar { /* Personal photo position */
+    width: 10rem;
+    margin: 11.5rem  auto 0;
+    position: relative;
+}
+
+.avatar span { /* Rocketseat seal */
+    position: absolute;
+    top: -15px;
+    z-index: 1; /* Up the tags elements 1 unit in Z axis */
+}
+
+.avatar > img { /* Personal photo size and format */
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); /* clip element with a form, inputing vertex coordinates */
+}
+
+a { /* Github link */
+    color:var(--grey);
+    text-decoration: none; /* Remove hyperlink underline */
+    font-size: 15px;
+
+    margin-top: 0.25rem;
+
+    display: flex; /* Let elements in X axis*/
+    gap: 0.75rem; /* Distance between elements */
+    justify-content: center;
+    align-items: center;
+}
+
+ul { /* Social media icons */
+    margin-top: 12rem;
+
+    list-style: none; /* Delete circle topics */
+    padding: 0;
+
+    display: flex; /* Let elements in X axis*/
+    gap: 0.5rem; /* Distance between elements */
+
+    justify-content: center;
+}
